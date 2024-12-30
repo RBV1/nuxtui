@@ -139,8 +139,8 @@ importers:
         specifier: 5.6.3
         version: 5.6.3
       unplugin:
-        specifier: ^1.16.0
-        version: 1.16.0
+        specifier: ^2.1.2
+        version: 2.1.2
       unplugin-auto-import:
         specifier: ^0.19.0
         version: 0.19.0(@nuxt/kit@3.14.1592(magicast@0.3.5)(rollup@4.28.1))(@vueuse/core@12.2.0(typescript@5.6.3))(rollup@4.28.1)
@@ -6596,6 +6596,10 @@ packages:
     resolution: {integrity: sha512-us4j03/499KhbGP8BU7Hrzrgseo+KdfJYWcbcajCOqsAyb8Gk0Yn2kiUIcZISYCb1JFaZfIuG3b42HmguVOKCQ==}
     engines: {node: '>=18.12.0'}
 
+  unplugin@2.1.2:
+    resolution: {integrity: sha512-Q3LU0e4zxKfRko1wMV2HmP8lB9KWislY7hxXpxd+lGx0PRInE4vhMBVEZwpdVYHvtqzhSrzuIfErsob6bQfCzw==}
+    engines: {node: '>=18.12.0'}
+
   unstorage@1.13.1:
     resolution: {integrity: sha512-ELexQHUrG05QVIM/iUeQNdl9FXDZhqLJ4yP59fnmn2jGUh0TEulwOgov1ubOb3Gt2ZGK/VMchJwPDNVEGWQpRg==}
     peerDependencies:
@@ -8203,7 +8207,7 @@ snapshots:
       tinyglobby: 0.2.10
       ufo: 1.5.4
       unifont: 0.1.6
-      unplugin: 2.1.0
+      unplugin: 2.1.2
       unstorage: 1.13.1(ioredis@5.4.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -8395,7 +8399,7 @@ snapshots:
       tinyexec: 0.3.1
       ufo: 1.5.4
       unenv: 1.10.0
-      unplugin: 2.1.0
+      unplugin: 2.1.2
       vite: 5.4.11(@types/node@22.10.2)(lightningcss@1.28.2)(terser@5.37.0)
       vitest-environment-nuxt: 1.0.1(@types/node@22.10.2)(@vue/test-utils@2.4.6)(happy-dom@14.12.3)(lightningcss@1.28.2)(magicast@0.3.5)(playwright-core@1.49.1)(rollup@4.28.1)(terser@5.37.0)(typescript@5.6.3)(vitest@2.1.8(@types/node@22.10.2)(happy-dom@14.12.3)(lightningcss@1.28.2)(terser@5.37.0))
       vue: 3.5.13(typescript@5.6.3)
@@ -14847,7 +14851,7 @@ snapshots:
       acorn: 8.14.0
       estree-walker: 3.0.3
       magic-string: 0.30.17
-      unplugin: 2.1.0
+      unplugin: 2.1.2
 
   undici-types@6.20.0: {}
 
@@ -15055,6 +15059,11 @@ snapshots:
       webpack-virtual-modules: 0.6.2
 
   unplugin@2.1.0:
+    dependencies:
+      acorn: 8.14.0
+      webpack-virtual-modules: 0.6.2
+
+  unplugin@2.1.2:
     dependencies:
       acorn: 8.14.0
       webpack-virtual-modules: 0.6.2
