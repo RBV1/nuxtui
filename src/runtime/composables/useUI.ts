@@ -17,7 +17,7 @@ export const useUI = <T>(key, $ui?: Ref<DeepPartial<T> & { strategy?: Strategy }
       _ui?.strategy || (appConfig.ui?.strategy as Strategy),
       _wrapperClass ? { wrapper: _wrapperClass } : {},
       _ui || {},
-      (import.meta.dev || withAppConfig) ? get(appConfig.ui, key, {}) : {},
+      get(appConfig.ui, key, {}),
       _config || {}
     )
   })
